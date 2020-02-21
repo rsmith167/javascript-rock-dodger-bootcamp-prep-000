@@ -143,6 +143,7 @@ function createRock(x) {
   // Finally, return the rock element you've created.
   
   console.log(rock)
+  console.log(ROCKS[0])
   return rock;
   
 }
