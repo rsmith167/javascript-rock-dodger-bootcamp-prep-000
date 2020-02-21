@@ -141,8 +141,10 @@ function createRock(x) {
   ROCKS.push(rock);
   
   // Finally, return the rock element you've created.
-  return rock;
+  
   console.log(rock)
+  return rock;
+  
 }
 
 function moveDodger(e) {
