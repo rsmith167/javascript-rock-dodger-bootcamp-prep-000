@@ -231,10 +231,10 @@ function positionToInteger(p) {
 function endGame() {
   window.clearInterval(gameInterval);
   
-  for( var i = ROCKS.length; i > 0; i--){
-      GAME.removeChild(ROCKS[0]);
-      ROCKS.splice(0,1);
-  }
+ // for( var i = ROCKS.length; i > 0; i--){
+ //     GAME.removeChild(ROCKS[0]);
+ //     ROCKS.splice(0,1);
+ // }
   window.removeEventListener('keydown', moveDodger);
   
   console.log(ROCKS[0])
