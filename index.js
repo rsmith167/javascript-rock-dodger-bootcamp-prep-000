@@ -139,9 +139,10 @@ function createRock(x) {
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision.
   ROCKS.push(rock);
-  console.log(ROCKS[0])
+  
   // Finally, return the rock element you've created.
   return rock;
+  console.log(rock)
 }
 
 function moveDodger(e) {
