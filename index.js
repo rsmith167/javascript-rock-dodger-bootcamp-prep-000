@@ -236,7 +236,8 @@ function endGame() {
       ROCKS.splice(0,1);
   }
   window.removeEventListener('keydown', moveDodger);
-  
+  console.log(rock)
+  console.log(ROCKS[0])
   alert("YOU LOSE!");
   
 }
